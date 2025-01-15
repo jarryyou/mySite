@@ -1,0 +1,18 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(left, red, 25%, blue);
+  /* Safari 5.1 - 6.0 */
+  --vp-home-hero-name-background: -o-linear-gradient(right, red, 25%, blue);
+  /* Opera 11.1 - 12.0 */
+  --vp-home-hero-name-background: -moz-linear-gradient(right, red, 25%, blue);
+  /* Firefox 3.6 - 15 */
+  --vp-home-hero-name-background: linear-gradient(to right, red, 25%, blue);
+  /* 标准的语法（必须放在最后） */
+  --vp-home-hero-name-webkit-background-clip: text;
+  /* Safari */
+  --vp-home-hero-name-webkit-text-fill-color: transparent;
+
+
+  --vp-home-hero-image-background: url('/public/images/logo.png') center/cover no-repeat;
+}
